@@ -1,5 +1,5 @@
 
-# ayment-page-sample
+# Payment-page-sample
 A payment page sample for any online payment portal in html,css,bootstrap and javascript
 
 ## Link
