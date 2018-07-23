@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Payment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<div class="wrapper margin-top-10">
+		<div class="container border-top">
+			<div class="row">
+				<div class="col-md-9 border-right" style="padding-right: 30px;">
+					<div class="header margin-top-20"><span class="payment-header">Choose Payment Mode</span><span class="price-header pull-right"><span class="you-pay">You Pay</span>Rs. 2,495</span></div>
+					<div class="wallet thumbnail margin-top-20"><span class="phonepe-wallet">PhonePe wallet(usable)</span><span class="usable-balance pull-right">Rs. 400</span>
+						<p class="wallet-balance">Total Balance is: Rs. 400</p></div>
+						<div class="payment-method">
+							<div class="payment-list">
+								<ul id="payment-nav">
+									<li role="presentation"  onclick="current(this,'saved-card')"><a href="#">SAVED CARDS</a></li>
+									<li role="presentation"  onclick="current(this,'debit-card')"><a href="#">CREDIT/DEBIT CARDS</a></li>
+									<li role="presentation"  onclick="current(this,'net-banking')"><a href="#">NET BANKING</a></li>
+									<li role="presentation" class="active" onclick="current(this,'cash-on-delivery')"><a href="#">CASH/CARD ON DELIVERY</a></li>
+									<li role="presentation"  onclick="current(this,'phonepe')"><a href="#">PHONEPE(UPI,CARDS)</a></li>
+									<li role="presentation"  onclick="current(this,'wallets')"><a href="#">WALLETS</a></li>
+									<li role="presentation"  onclick="current(this,'gift-card')"><a href="#">GIFT CARDS</a></li>
+								</ul>
+							</div>
+							<div id="payment-detail">
+								<div id="saved-card" class="none"><p class="test">saved card</p></div>
+								<div id="debit-card" class="none"><p class="test">debit card</p></div>
+								<div id="net-banking" class="none"><p class="test">net banking</p></div>
+								<div id="cash-on-delivery"><p class="test">cash on delivery</p></div>
+								<div id="phonepe" class="none"><p class="test">phonepe</p></div>
+								<div id="wallets" class="none"><p class="test">wallet</p></div>
+								<div id="gift-card" class="none"><p class="test">gift card</p></div>
+
+							</div>
+						</div>    
+					</div>
+
+					<div class="col-md-3 margin-top-20" style="padding-left: 30px;">
+						<div class="order">
+							<p class="order-focus bold">ORDER SUMMARY</p>
+							<p class="item-no bold">1 ITEM</p>
+							<p><span class="order-total">Order Total <a class="bold " href="#">View Details</a></span><span class="total-price pull-right">Rs. 2495</span></p>
+							<p><span class="delivery">Delivery</span><span class="free pull-right">FREE</span></p>
+							<p class="border-top bold " style="padding-top: 10px;"><span class="payable">Total Payable</span><span class="payable-price pull-right">Rs. 2,495</span></p>
+						</div>
+						<div class="deliver margin-top-30">
+							<p class="deliver-focus bold">DELIVER TO</p>
+							<p class="name bold">Sourabh kumar</p>
+							<p class="address">Shanti Travels,Second Floor,C-66<br>
+								Okhla Industrial Area Phase-1<br>
+								New Delhi-110020<br>
+								Delhi<br>
+								Mobile:7073143198</p>
+								<p class="bold"><a href="#">Change Address</a></p>                 
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+				<script src="bootstrap/js/bootstrap.min.js"></script>
+				<script src="javascript/jscript.js"></script>
+
+			</body>
+			</html>
+
+

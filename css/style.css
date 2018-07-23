@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	margin:0;
+}
+
+body{
+	font-size: 14px;
+	font-family: calibri, Arial;
+}
+.margin-top-10{
+	margin-top:10px;
+}
+.margin-top-15{
+	margin-top:15px;
+}
+.margin-top-20{
+	margin-top:20px;
+}
+.margin-top-25{
+	margin-top:25px;
+}
+.margin-top-30{
+	margin-top: 30px;
+}
+.margin-bottom-10{
+	margin-bottom:10px;
+}
+.margin-bottom-15{
+	margin-bottom:15px;
+}
+.margin-bottom-20{
+	margin-bottom:20px;
+}
+.margin-bottom-25{
+	margin-bottom:25px;
+}
+.border-top{
+	border-top:1px solid #eee;
+
+}
+.border-right{
+	border-right:1px solid #eee;
+
+}
+.bold{
+	font-weight: bold;
+}
+.no-active{}
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
+.test{
+	font-size: 20px;
+	font-weight: bold;
+	color: #53576a;
+	text-transform: uppercase;
+}
+.wrapper{}
+.wrapper .header{}
+.wrapper .header .you-pay{
+	color: #53576a;
+	padding-right: 10px;
+}
+.wrapper .header .payment-header{
+font-size: 18px;
+color: #53576a;
+font-weight: bold;
+}
+.wrapper .header .price-header{
+font-size: 18px;
+font-weight: bold;
+}
+.wrapper .wallet{
+padding: 15px;
+padding-bottom: 5px;
+font-weight: bold;
+color: #53576a;
+}
+.wrapper .wallet .phonepe-wallet{}
+.wrapper .wallet .usable-balance{
+color:#0bc6a0;
+}
+.wrapper .wallet .wallet-balance{
+ font-size: 13px;
+}
+.wrapper .payment-method{
+border-top: 2px solid #000;
+}
+.wrapper .payment-method .payment-list{
+	width:30%;
+	float: left;
+}
+.wrapper .payment-method .payment-list #payment-nav{
+	list-style: none;
+	background-color: #f5f5f6;
+	margin: 0;
+	border-left: 1px solid #eee;
+}
+.wrapper .payment-method .payment-list #payment-nav li{
+  border-bottom:1px solid #eee;
+  border-left: 5px solid transparent;
+  border-right: 1px solid #eee;
+  }  
+.wrapper .payment-method .payment-list #payment-nav li.active{
+	background-color:#fff;
+	border-left:5px solid #0bc6a0;
+	border-right:none;
+	
+}
+.wrapper .payment-method .payment-list #payment-nav li.active a{
+	color: #0bc6a0;
+}
+.wrapper .payment-method .payment-list #payment-nav li  a{
+	 padding: 20px 10px;
+	 padding-left:15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #535766;
+    display:block;
+    text-decoration: none;
+   }
+.wrapper .payment-method #payment-detail{
+	width:70%;
+	float: left;
+padding-left: 30px;
+padding-top: 20px;
+}
+.wrapper .order{}
+.wrapper .order .order-focus{
+   color:#94969f;
+  }
+.wrapper .order .item-no{	
+color: #53576a;
+}
+.wrapper .order .order-total{
+color: #888;
+}
+.wrapper .order .total-price{}
+.wrapper .order .delivery{
+color: #888;
+}
+.wrapper .order .free{
+color:#0bc6a0; 
+}
+.wrapper .order .payable{
+color: #53576a;
+}
+.wrapper .order .payable-price{
+color: #53576a;
+}
+.wrapper .deliver .deliver-focus{
+	color:#94969f;
+}
+.wrapper .deliver .address{
+	color: #888;
+}
